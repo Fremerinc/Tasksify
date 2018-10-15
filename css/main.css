@@ -63,7 +63,7 @@ ul li.checked::before {
 }
 
 .delete:hover {
-    background-color: #007bff;
+    background-color: rgb(20, 228, 106);
     color: #fff;
 }
 
@@ -78,13 +78,13 @@ input {
 }
 
 input:focus {
-    box-shadow: 0 0 0 1.0px #007bff;
+    box-shadow: 0 0 0 1.0px rgb(20, 228, 106);
 }
 
 .addBtn {
     padding: 15px;
     width: 20%;
-    background-color: #007bff;
+    background-color: rgb(20, 228, 106);
     color: #fff;
     float: left;
     text-align: center;
