@@ -1,1 +1,1 @@
-Simple TodoList-App
+Create and manage your tasks with Tasksify.
