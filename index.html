@@ -3,37 +3,37 @@
 
 <head>
 
-    <title>Tasksify Manager</title>
+    <title>Tasksify</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Twitter Card-->
-    <meta name="twitter:title" content="Tasksify Manager">
+    <meta name="twitter:title" content="Tasksify">
     <meta name="twitter:site" content="@fremerinc" />
     <meta name="twitter:creator" content="@fremerinc" />
-    <meta name="twitter:description" content="Simple Tasksify Manager">
+    <meta name="twitter:description" content="Create and manage your tasks with Tasksify.">
     <meta name="twitter:image" content="img/logo.png">
     <meta name="twitter:card" content="img/logo.png">
-    <meta name="description" content="Simple Tasksify Manager">
+    <meta name="description" content="Create and manage your tasks with Tasksify.">
     <!--Open Graph-->
     <meta property="og:image" content="img/logo.png">
     <meta property="og:title" content="Tasksify Manager" />
     <meta name="author" content="Bolaji Ayodeji">
-    <meta property="og:description" content="Simple Tasksify Manager" />
+    <meta property="og:description" content="Create and manage your tasks with Tasksify." />
     <meta name="author" content="Fremer Inc">
     <meta property="og:url" content="https://fremerinc.github.io/TodoList-App" />
-    <meta property="og:site_name" content="TodoList-App" />
-    <meta property="og:type" content="TodoList-App" />
+    <meta property="og:site_name" content="Tasksify" />
+    <meta property="og:type" content="Tasksify" />
 
     <!-- Google Knowledge Graph card -->
     <script type='application/ld+json'>
             {
               "@context": "http://www.schema.org",
-              "@type": "TodoList-App",
-              "name": "Simple TodoList-App",
+              "@type": "Tasksify",
+              "name": "Tasksify",
               "url": "https://fremerinc.github.io/TodoList-App",
               "logo": "https://fremerinc.github.io/TodoList-App/img/logo.png",
-              "description": "Simple TodoList-App"
+              "description": "Create and manage your tasks with Tasksify."
             } 
 		</script>
     <!--Bootstrap CDN-->
@@ -47,15 +47,13 @@
 </head>
 
 <body>
-    <div id="myHeader" <div class="jumbotron">
+    <div id="myHeader" class="jumbotron">
         <div class="container">
-            <h1 class="display-4">Tasksify Manager</h1>
-            <p class="lead">This is a simple TodoList-App.</p>
-            <br />
-            <p>Create and manage your tasks with Tasksify Manager.</p>
+            <h1 class="display-4 logo">Tasksify</h1>
+            <p>Create and manage your tasks!</p>
             <hr class="my-4">
             <div>
-                <input type="text" id="myInput" placeholder="Task Name">
+                <input type="text" id="myInput" placeholder="Task Name" required="required">
                 <span onclick="newElement()" class="addBtn">Add</span>
             </div>
         </div>
@@ -73,19 +71,17 @@
         </ul>
     </div>
 
-
-
-
-    <script src="js/main.js"></script>
 </body>
 
 <footer>
     <div class="alert" role="alert">
         <hr>
         <p class="mb-0 text-center">Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script>: <a href="https://fremer.com.ng" target="_blank">Fremer
+            <script>document.write(new Date().getFullYear());</script> <a href="https://fremer.com.ng" target="_blank">Fremer
                 Inc</a></p>
     </div>
 </footer>
+
+<script src="js/main.js"></script>
 
 </html>

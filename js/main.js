@@ -34,7 +34,7 @@ function newElement() {
     var t = document.createTextNode(inputValue);
     li.appendChild(t);
     if (inputValue === '') {
-        alert("Please enter your task name")
+        ("")
     }
     else {
         document.getElementById("myList").appendChild(li);
@@ -56,8 +56,8 @@ function newElement() {
 }
 
 //Enter key adds new item to list
-document.body.onkeyup = function(e) {
+document.body.onkeyup = function (e) {
     if (e.keyCode == 13) {
-      newElement();
+        newElement();
     }
-  };
+};

@@ -17,10 +17,12 @@ ul {
 ul li {
     cursor: pointer;
     position: relative;
+    margin-bottom: 10px;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
-    background: #eee;
-    font-size: 20px;
+    background: #ddd;
+    font-size: 15px;
+    border-radius: 20px;
     transition: 0.2s;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -28,12 +30,8 @@ ul li {
     user-select: none;
 }
 
-ul li:nth-child(odd) {
-    background: #f9f9f9;
-}
-
 ul li:hover {
-    background: #ddd;
+    background: #eee;
 }
 
 ul li.checked {
@@ -65,11 +63,13 @@ ul li.checked::before {
 .delete:hover {
     background-color: rgb(20, 228, 106);
     color: #fff;
+    border-radius: 0 20px 20px 0;
 }
 
 input {
     margin: 0;
     border: none;
+    box-shadow: 0 0 0 2.0px #fff;
     border-radius: 15px 0 0 15px;
     width: 80%;
     padding: 15px;
@@ -78,13 +78,14 @@ input {
 }
 
 input:focus {
-    box-shadow: 0 0 0 1.0px rgb(20, 228, 106);
+    box-shadow: 0 0 0 2.0px rgb(20, 228, 106);
 }
 
 .addBtn {
     padding: 15px;
     width: 20%;
     background-color: rgb(20, 228, 106);
+    box-shadow: 0 0 0 2.0px rgb(20, 228, 106);
     color: #fff;
     float: left;
     text-align: center;
@@ -101,7 +102,7 @@ input:focus {
 }
 
 footer {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .alert {
