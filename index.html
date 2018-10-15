@@ -2,11 +2,39 @@
 <html>
 
 <head>
-    <!--Meta tags-->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>TodoList-App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Twitter Card-->
+    <meta name="twitter:title" content="TodoList-App">
+    <meta name="twitter:site" content="@fremerinc" />
+    <meta name="twitter:creator" content="@fremerinc" />
+    <meta name="twitter:description" content="Simple TodoList-App">
+    <meta name="twitter:image" content="img/favicon.png">
+    <meta name="twitter:card" content="img/favicon.png">
+    <meta name="description" content="Simple TodoList-App">
+    <!--Open Graph-->
+    <meta property="og:image" content="img/favicon.png">
+    <meta property="og:title" content="TodoList-App" />
+    <meta property="og:description" content="Simple TodoList-App" />
+    <meta name="author" content="Fremer Inc">
+    <meta property="og:url" content="https://fremerinc.github.io/TodoList-App" />
+    <meta property="og:site_name" content="TodoList-App" />
+    <meta property="og:type" content="TodoList-App" />
+
+    <!-- Google Knowledge Graph card -->
+    <script type='application/ld+json'>
+            {
+              "@context": "http://www.schema.org",
+              "@type": "TodoList-App",
+              "name": "Simple TodoList-App",
+              "url": "https://fremerinc.github.io/TodoList-App",
+              "logo": "https://fremerinc.github.io/TodoList-App/img/favicon.png",
+              "description": "Simple TodoList-App"
+            } 
+		</script>
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--Main Stylesheet-->
@@ -18,30 +46,29 @@
 </head>
 
 <body>
-    <div id="myHeader"
-        <div class="jumbotron">
-            <div class="container">
-                <h1 class="display-4">TodoList-App</h1>
-                <p class="lead">This is a simple TodoList-App.</p>
-                <hr class="my-4">
-                <div>
-                        <input type="text" id="myInput" placeholder="Task Name">
-                        <span onclick="newElement()" class="addBtn">Add</span>
-                      </div>
-                    </div>
-                </div>
+    <div id="myHeader" <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">TodoList-App</h1>
+            <p class="lead">This is a simple TodoList-App.</p>
+            <hr class="my-4">
+            <div>
+                <input type="text" id="myInput" placeholder="Task Name">
+                <span onclick="newElement()" class="addBtn">Add</span>
             </div>
         </div>
     </div>
+    </div>
+    </div>
+    </div>
     <div class="container">
-            <ul id="myList">
-                <li class="checked">Finish Fremer Task</li>
-                <li>Visit the mall</li>
-                <li>Finish presentation task</li>
-                <li>Make plans for ICA Meetup</li>
-                <li>Get a Macbook</li>
-            </ul>
-        </div>
+        <ul id="myList">
+            <li class="checked">Finish Fremer Task</li>
+            <li>Visit the mall</li>
+            <li>Finish presentation task</li>
+            <li>Make plans for ICA Meetup</li>
+            <li>Get a Macbook</li>
+        </ul>
+    </div>
 
 
 
@@ -50,10 +77,14 @@
 </body>
 
 <footer>
-            <div class="alert" role="alert">
-                    <hr>
-                    <p class="mb-0 text-center">Developed by; <a href="https://bolajiayodeji.github.io" target="_blank">Bolaji Ayodeji</a></p>
-                    <p class="mb-0 text-center">Source code: <a href="https://github.com/bolajiayodeji/TodoList-App" target="_blank">Github</a> || <a href="https://codepen.io/iambolajiayo/pen/pxdoXO" target="_blank">Codepen</a></p>
-                  </div>
+    <div class="alert" role="alert">
+        <hr>
+        <p class="mb-0 text-center">Developed by; <a href="https://bolajiayodeji.github.io" target="_blank">Bolaji
+                Ayodeji</a></p>
+        <p class="mb-0 text-center">Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script>: <a href="https://fremer.com.ng" target="_blank">Fremer
+                Inc</a></p>
+    </div>
 </footer>
+
 </html>
