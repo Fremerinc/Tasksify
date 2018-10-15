@@ -34,7 +34,7 @@ function newElement() {
     var t = document.createTextNode(inputValue);
     li.appendChild(t);
     if (inputValue === '') {
-        ("")
+        alert("Enter your task name first!!")
     }
     else {
         document.getElementById("myList").appendChild(li);
