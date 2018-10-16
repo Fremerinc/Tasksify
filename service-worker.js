@@ -30,7 +30,7 @@
                 '/index.html?homescreen=1', //default
                 '/?homescreen=1', //default
                 '/css/main.css',// configure as by your site ; just an example
-                '/images/meta-img.jpg*',// choose images to keep offline; just an example
+                '/img/logo.png*',// choose images to keep offline; just an example
         // Do not replace/delete/edit the service-worker.js/ and manifest.js paths below
                 '/service-worker.js',
                 '/manifest.js',
