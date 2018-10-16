@@ -25,29 +25,7 @@ list.addEventListener('click', function (ev) {
     if (ev.target.tagName === 'LI') {
         ev.target.classList.toggle('checked')
     }
-}, false);
-
-//Create a new list item when input is entered
-function newElement() {
-    var li = document.createElement("li")
-    var inputValue = document.getElementById("myInput").value;
-    var t = document.createTextNode(inputValue)
-    document.getElementById("myInput").value = ""
-
-    var span = document.createElement("span");
-    var txt = document.createTextNode("u00D7");
-    span.className = "delete";
-    span.appendChild(txt);
-    li.appendChild(span);
-    
-
-    for (i = 0; i < close.length; i+) {
-        close[i].onclick = function () {
-            var div = this.parentElement;
-            div.style.display = "none";
-        }
-    }
-}
+}, false);    
 
 //Enter key adds new item to list
 document.body.onkeyup = function (e) {
