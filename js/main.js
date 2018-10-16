@@ -1,7 +1,7 @@
 //Create a delete button and append it to each list item
 var myNodeList = document.getElementsByTagName("li");
 var i;
-for (i = 0; i < myNodeList.length; i++) {
+for (i = 0; i < myNodeList.length; i+) {
     var span = document.createElement("span");
     var txt = document.createTextNode("\u00D7");
     span.className = "delete";
@@ -12,7 +12,7 @@ for (i = 0; i < myNodeList.length; i++) {
 //Click on the delete button to delete the current list item
 var close = document.getElementsByClassName("delete");
 var i;
-for (i = 0; i < close.length; i++) {
+for (i = 0; i < close.length; i+) {
     close[i].onclick = function () {
         var div = this.parentElement;
         div.style.display = "none";
@@ -42,13 +42,13 @@ function newElement() {
     document.getElementById("myInput").value = "";
 
     var span = document.createElement("span");
-    var txt = document.createTextNode("\u00D7");
+    var txt = document.createTextNode("u00D7");
     span.className = "delete";
     span.appendChild(txt);
     li.appendChild(span);
     
 
-    for (i = 0; i < close.length; i++) {
+    for (i = 0; i < close.length; i+) {
         close[i].onclick = function () {
             var div = this.parentElement;
             div.style.display = "none";
