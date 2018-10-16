@@ -3,14 +3,14 @@ var myNodeList = document.getElementsByTagName("li");
 var i;
 for (i = 0; i < myNodeList.length; i+) {
     var span = document.createElement("span");
-    var txt = document.createTextNode("\u00D7");
-    span.className = "delete";
+    var txt = document.createTextNode("\u00D7")
+    span.className = "delete"
     span.appendChild(txt);
-    myNodeList[i].appendChild(span);
+    myNodeList[i].appendChild(span)
 }
 
 //Click on the delete button to delete the current list item
-var close = document.getElementsByClassName("delete");
+var close = document.getElementsByClassName("delete")
 var i;
 for (i = 0; i < close.length; i+) {
     close[i].onclick = function () {
@@ -23,23 +23,16 @@ for (i = 0; i < close.length; i+) {
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
     if (ev.target.tagName === 'LI') {
-        ev.target.classList.toggle('checked');
+        ev.target.classList.toggle('checked')
     }
 }, false);
 
 //Create a new list item when input is entered
 function newElement() {
-    var li = document.createElement("li");
+    var li = document.createElement("li")
     var inputValue = document.getElementById("myInput").value;
-    var t = document.createTextNode(inputValue);
-    li.appendChild(t);
-    if (inputValue === '') {
-        alert("Enter your task name first!!")
-    }
-    else {
-        document.getElementById("myList").appendChild(li);
-    }
-    document.getElementById("myInput").value = "";
+    var t = document.createTextNode(inputValue)
+    document.getElementById("myInput").value = ""
 
     var span = document.createElement("span");
     var txt = document.createTextNode("u00D7");
