@@ -1,8 +1,8 @@
 {
   "name": "Tasksify",
   "short_name": "Tasksify",
-  "theme_color": "#3f4e85",
-  "background_color": "#3f4e85",
+  "theme_color": "rgb(20, 228, 106);",
+  "background_color": "rgb(20, 228, 106);",
   "display": "standalone",
   "orientation": "portrait",
   "description": "Create and manage your tasks with Tasksify.",
